@@ -1,0 +1,16 @@
+{
+  "name": "node_lambda_layer",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && mkdir -p nodejs && cp -r node_modules nodejs/ && zip -r layer.zip nodejs"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": ""
+}
